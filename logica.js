@@ -1,10 +1,7 @@
 const addCard = () =>{
     var newDiv = document.createElement('DIV')
-    var newH1 = document.createElement('H1')
-    const posic = document.getElementById('container')
-    newH1.textContent = "Hello World"
-    newDiv.classList.add('novadiv')
-    newDiv.appendChild(newH1)
-    container.appendChild(newDiv)
+    const cards = document.getElementById('cards')
+    newDiv.classList.add('card1')
+    
+    cards.appendChild(newDiv)
 }
-console.log(newDiv)
