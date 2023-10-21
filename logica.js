@@ -1,33 +1,26 @@
 const conjunto = [{
-    titulo: 'negocio1',
-    descricao: 'negocio',
+    titulo: 'xiaomi',
+    descricao: 'x11',
     valor: 500
     },
     {
-    titulo: 'negocio2',
-    descricao: 'negocio',
+    titulo: 'note',
+    descricao: 'x14',
+    valor: 600,
+    },
+    {
+    titulo: 'nokia',
+    descricao: '1100',
     valor: 500,
     },
     {
-    titulo: 'negocio3',
-    descricao: 'negocio',
-    valor: 500,
-    },
-    {
-    titulo: 'negocio4',
-    descricao: 'negocio',
-    valor: 500,
+    titulo: 'LG',
+    descricao: 'k10',
+    valor: 700,
     }                
 ]
 
 
-    
-const obj = {
-    titulo: 'negocio',
-    descricao: 'negocio',
-    valor: 500
-}
-var TagTitulo = []
 var i = 0
 
 function addCard () {
@@ -53,15 +46,10 @@ function addCard () {
 
     i=i+1
         
-        console.log(conjunto[i-1].titulo)
-        TagTitulo = conjunto[i-1].titulo
-        console.log(i)
-    
-
     newImg.src = "././imagens/cel2.jpg"
-    newH1.textContent = TagTitulo
-    newP.textContent = obj.descricao
-    newH2.textContent = obj.valor
+    newH1.textContent = conjunto[i-1].titulo
+    newP.textContent = conjunto[i-1].descricao
+    newH2.textContent = conjunto[i-1].valor
     newButton.textContent = 'Saiba Mais!'
 
     
