@@ -44,7 +44,7 @@ function addCard () {
     newDiv.appendChild(newH2)
     newDiv.appendChild(newButton)
 
-    i=i+1
+    i=+1
         
     newImg.src = "././imagens/cel2.jpg"
     newH1.textContent = conjunto[i-1].titulo
